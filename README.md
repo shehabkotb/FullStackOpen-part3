@@ -1,3 +1,3 @@
 # FullStackOpen-part3
 
-## Node.js backend for phonebook app
+## Node.js backend for phonebook app.
