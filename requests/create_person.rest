@@ -1,0 +1,25 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "asfa",
+    "number": "1511541"
+}
+
+### bad request no name
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "number": "1511541"
+}
+
+###  bad request no number
+
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "asfa2"
+}
