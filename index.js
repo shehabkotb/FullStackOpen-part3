@@ -87,7 +87,7 @@ app.post("/api/persons/", (request, response) => {
     id: Math.floor(Math.random() * Math.floor(maxID))
   }
   persons = persons.concat(newPerson)
-  response.status(201).end()
+  response.status(201).json(newPerson)
 })
 
 app.delete("/api/persons/:id", (request, response) => {
