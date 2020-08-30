@@ -1,2 +1,7 @@
 # dependencies
 /node_modules
+
+database.txt
+
+# enviroment variables
+.env
