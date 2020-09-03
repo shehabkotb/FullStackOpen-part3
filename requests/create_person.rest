@@ -2,8 +2,8 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "asfa",
-    "number": "1511541"
+    "name": "abrahimovich",
+    "number": "151551511514"
 }
 
 ### bad request no name
