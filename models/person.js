@@ -6,7 +6,7 @@ const uniqueValidator = require("mongoose-unique-validator")
 
 mongoose
   .connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then((result) => {
+  .then(() => {
     console.log("connected to mongodb")
   })
   .catch((error) => {
